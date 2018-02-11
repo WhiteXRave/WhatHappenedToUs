@@ -1,10 +1,19 @@
 {
-    "id": "2a8fa074-293c-40d3-953a-dec47cf087fc",
+    "id": "48445f5c-ba9f-492a-8fb3-0ed392b20ecc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_slope_floor",
+    "name": "obj_room_cVisible",
     "eventList": [
-        
+        {
+            "id": "de233e45-f9e4-48aa-93c8-b021483713e1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "48445f5c-ba9f-492a-8fb3-0ed392b20ecc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6900045c-4c44-46d2-b478-1c4eeea9c811",
-    "visible": false
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": true
 }

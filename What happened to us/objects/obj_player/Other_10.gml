@@ -16,12 +16,13 @@ if (hinput != 0) {
 if (!place_meeting(x, y + 1, obj_SolidPar)) {
 	spd[v] += grav
 } 
-if (keyboard_check(ord("D"))) && (jump = false) && (mouse_x > x) && (bRUN) {
+if (keyboard_check(ord("D"))) && (mouse_x > x) && (bRUN) && (ladder = false) {
 	max_spd = 6
-		} else if (keyboard_check(ord("A"))) && (jump = false) && (mouse_x < x) && (bRUN) {
+		} else if (keyboard_check(ord("A"))) && (mouse_x < x) && (bRUN) & (ladder = false) {
 			max_spd = 6
 } else {
 	max_spd = 4
 }
+direction = image_xscale
 
 
