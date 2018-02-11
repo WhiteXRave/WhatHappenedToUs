@@ -20,20 +20,9 @@ ladder = false
 max_hp = 10
 hp = max_hp
 
-//Damage taken
-invincible = false
 
 //Take some stuff
 ammo_taken = false
-
-//Dash
-Dash_cooldown = false
-DashRR = false
-DashRL = false
-DashLL = false
-DashLR = false
-DashRS = false
-DashLS = false
 
 // Hide the solids layer
 var solid_layer = layer_get_id("Solids")

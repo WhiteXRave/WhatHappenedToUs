@@ -322,7 +322,7 @@
             "Key": "326f4923-1561-4ec1-9c1c-f092675ca871",
             "Value": {
                 "id": "28910ebd-6e03-40bd-9447-a853c71d78f4",
-                "resourcePath": "sprites\\sprite62\\sprite62.yy",
+                "resourcePath": "sprites\\spr_camera\\spr_camera.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1501,10 +1501,10 @@
         "f24415df-d9a0-46f5-8c83-583a619ddd0b",
         "a93f59ce-4858-424d-9be6-557f8136a0b6",
         "18f41db1-0d7c-41ab-9cba-808867875368",
+        "a36c4f1e-fe81-4e5d-a576-58c4f43c6268",
         "525a0bc8-f83e-4a06-ada4-afaa75857e50",
         "4850ef8f-4c14-4fc3-96b7-73e704a2b63c",
-        "42a0650c-2ca4-4e74-9bc3-6d38d87443c1",
-        "a36c4f1e-fe81-4e5d-a576-58c4f43c6268"
+        "42a0650c-2ca4-4e74-9bc3-6d38d87443c1"
     ],
     "tutorial": ""
 }
