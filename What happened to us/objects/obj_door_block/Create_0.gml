@@ -1,0 +1,1 @@
+door_blocked = false
