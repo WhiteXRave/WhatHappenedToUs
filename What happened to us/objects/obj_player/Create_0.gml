@@ -15,6 +15,7 @@ cRUN = false
 sndSteps = false
 ladder = false
 uLadder = false
+uuLadder = false
 
 
 //Hp

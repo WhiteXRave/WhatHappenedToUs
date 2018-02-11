@@ -17,10 +17,6 @@ if place_meeting(x+spd[h], y, obj_SolidPar) {
 		spd[@ h] = 0
 	}
 }
-
-
-
-
 if place_meeting(x, y+spd[v], obj_SolidPar) {
 	while !place_meeting(x, y+sign(spd[v]), obj_SolidPar) {
 		y += sign(spd[v])
@@ -31,10 +27,12 @@ if place_meeting(x, y+spd[v], obj_SolidPar) {
 		spd[@ v] = 0
 	}
 }
-
-
-
 //Ladder 
+if (place_meeting(x, y + 1, obj_floor)) {
+	uuLadder = true	
+} else {
+	uuLadder = false	
+}
 if (place_meeting(x, y, obj_floor_uLadder)) {
 	uLadder = true	
 } else {
@@ -50,8 +48,6 @@ if (place_meeting(x, y, obj_ladder)) {
 if (ladder = true) && (uLadder = false) {
 	spd[h] = 0	
 }
-
-
 if (ladder)  {
 	if (up) {
 		spd[v] = -4
@@ -73,18 +69,10 @@ if (place_meeting(x, y - 1, obj_floor)) {
 		spd[v] = 4	
 	}
 }
-
 //Slopes
 if (place_meeting(x + spd[h], y, obj_slope)) && (hinput != 0)  {
 	spd[v] = -7
 }
-
 //Movement
 x += spd[h] 
 y += spd[v]
-
-
-
-
-
-
