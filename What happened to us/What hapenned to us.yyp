@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "9cd92d49-14a2-400c-90c3-11b724c70802",
+            "Value": {
+                "id": "f39225d1-9b72-4613-a816-99160381bf0e",
+                "resourcePath": "sprites\\spr_player_idle\\spr_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9cf8ab47-7513-44a2-aeb0-92e7c6008783",
             "Value": {
                 "id": "c933a0ad-1121-4211-a9b7-4cae7ee4796f",
@@ -1271,6 +1279,14 @@
             }
         },
         {
+            "Key": "c72e363f-3889-4e68-8b68-608f0866c024",
+            "Value": {
+                "id": "44d29637-32a9-4535-8737-d21736cd550b",
+                "resourcePath": "sprites\\spr_test\\spr_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c93f5bf9-f978-4409-9a1b-5d6cdf092a76",
             "Value": {
                 "id": "76e12934-b7ff-4552-86d9-09de9b797743",
@@ -1378,7 +1394,7 @@
             "Key": "e45c6550-baf6-483b-8ae4-ac743ed7ab96",
             "Value": {
                 "id": "1c63a537-43e3-43a7-9e74-cadd34639434",
-                "resourcePath": "sprites\\spr_player_idle\\spr_player_idle.yy",
+                "resourcePath": "sprites\\spr_player_tes\\spr_player_tes.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1501,10 +1517,10 @@
         "f24415df-d9a0-46f5-8c83-583a619ddd0b",
         "a93f59ce-4858-424d-9be6-557f8136a0b6",
         "18f41db1-0d7c-41ab-9cba-808867875368",
+        "a36c4f1e-fe81-4e5d-a576-58c4f43c6268",
         "525a0bc8-f83e-4a06-ada4-afaa75857e50",
         "4850ef8f-4c14-4fc3-96b7-73e704a2b63c",
-        "42a0650c-2ca4-4e74-9bc3-6d38d87443c1",
-        "a36c4f1e-fe81-4e5d-a576-58c4f43c6268"
+        "42a0650c-2ca4-4e74-9bc3-6d38d87443c1"
     ],
     "tutorial": ""
 }
