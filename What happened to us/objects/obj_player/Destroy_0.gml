@@ -1,1 +1,0 @@
-instance_create_layer(x, y, "Gun", obj_player_death)

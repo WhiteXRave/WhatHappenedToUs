@@ -2,10 +2,11 @@
 //States
 event_user(state)
 
-//Gavno iz jeppi
+//Healths
 if (hp <= 0) {
-	instance_destroy()
+	instance_destroy(self)
 }
+//Scripts
 scr_move(spd, 0)
 scr_player_sprites()
 scr_sounds()
