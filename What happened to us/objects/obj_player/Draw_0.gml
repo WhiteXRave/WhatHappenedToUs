@@ -10,7 +10,7 @@ draw_sprite_ext(sprite_index, image_index, x, y, flipp, 1, 0, image_blend, image
 draw_set_font(fnt_one)
 draw_set_color(c_red)
 
-//draw_text(x + 40, y - 40, +string(ladder))
+draw_text(x + 40, y - 40, +string(y))
 //draw_text(x - 40, y - 40, +string(uuLadder))
 /*var r = collision_line_point(x, y, mouse_x, mouse_y, obj_SolidPar, true, true)
 draw_line(x, y, r[1], r[2])
