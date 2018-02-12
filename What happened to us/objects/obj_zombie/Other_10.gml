@@ -18,7 +18,7 @@ if (instance_exists(obj_player)) {
 			spd[h] += xPlayer*accel
 			spd[h] = clamp(spd[h], -max_spd, max_spd)
 		} else {
-			spd[h] = 0	
+			spd[h] = 0
 		}
 if (place_meeting(x, y, obj_player)) {
 	spd[h] = 0	
@@ -35,4 +35,4 @@ if (!place_meeting(x, y, obj_player)) && (cfloor < obj_player.cfloor || obj_play
 	if (place_meeting(x, y, obj_floor_uLadder)) {
 			
 	}
-}
+}s
