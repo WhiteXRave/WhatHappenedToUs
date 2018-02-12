@@ -23,6 +23,5 @@ if (keyboard_check(ord("D"))) && (mouse_x > x) && (bRUN) && (ladder = false) {
 } else {
 	max_spd = 4
 }
-direction = image_xscale
 
 

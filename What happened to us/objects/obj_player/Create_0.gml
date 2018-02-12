@@ -8,13 +8,15 @@ accel = 1
 fric = 0.3
 global.cantshoot = false
 movement = false
-cRUN = false
 sndSteps = false
 ladder = false
 uLadder = false
 uuLadder = false
-cfloor = 0
-utz = false
+gavnishe = false
+closest_ladder = false
+inBuilding = false
+upperthanzombie = false
+fLadder = false
 
 
 //Hp
