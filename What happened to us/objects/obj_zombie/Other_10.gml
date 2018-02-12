@@ -27,7 +27,12 @@ if (place_meeting(x, y, obj_player)) {
 if (!place_meeting(x, y + 1, obj_solid)) {
 	spd[v] += grav
 }
-if (!place_meeting(x, y, obj_player)) && (y > obj_player.y) && ((x = obj_player.x + 2) ||(x = obj_player.x - 2))  {
+if (!place_meeting(x, y, obj_player)) && (cfloor < obj_player.cfloor || obj_player.utz = true || obj_player.ladder && !obj_player.uLadder) && (x = obj_player.x + 2 || x = obj_player.x - 2)  {
 	image_xscale = 1
 	spd[h] = 0
+}
+/*if (cfloor < obj_player.cfloor) || (ladder) || {
+	if (place_meeting(x, y, obj_floor_uLadder)) {
+			
+	}
 }

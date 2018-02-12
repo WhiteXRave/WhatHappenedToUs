@@ -60,18 +60,26 @@ if (up) && (down) {
 	spd[v] = 0	
 }
 }
+
 if (place_meeting(x, y - 1, obj_floor)) {
-	if (up) {
+	if (up) && (!down)  {
 		spd[v] = -4	
 	} 
 } else if (place_meeting(x, y + 1, obj_floor)) {
-	if (down) {
+	if (down) && (!up) {
 		spd[v] = 4	
 	}
 }
 //Slopes
 if (place_meeting(x + spd[h], y, obj_slope)) && (hinput != 0)  {
 	spd[v] = -7
+}
+
+//Gavnishe 
+if (place_meeting(x, y + 1, obj_floor)) && (!place_meeting(x, y, obj_floor)) {
+	utz = true	
+} else {
+	utz = false	
 }
 //Movement
 x += spd[h] 

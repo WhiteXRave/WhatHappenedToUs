@@ -13,6 +13,8 @@ sndSteps = false
 ladder = false
 uLadder = false
 uuLadder = false
+cfloor = 0
+utz = false
 
 
 //Hp

@@ -4,6 +4,7 @@ alert = false
 grav = 1
 accel = 1
 alarm[0] = 120
+cfloor = 0
 //States
 movement = 0
 state = movement
