@@ -6,11 +6,9 @@ var bRUN = (keyboard_check(vk_shift))
 if (hinput != 0) {
 	spd[h] += hinput*accel
 	spd[h] = clamp(spd[h], -max_spd, max_spd)
-	camera_set_view_speed(0, -1, -1)
 } else {
 	//spd[h] = lerp(spd[h], 0, fric)
 	spd[h] = 0
-	camera_set_view_speed(0, 0, 0)
 }
 
 if (!place_meeting(x, y + 1, obj_SolidPar)) {

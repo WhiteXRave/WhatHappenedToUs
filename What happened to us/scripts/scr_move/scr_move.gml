@@ -75,12 +75,6 @@ if (place_meeting(x + spd[h], y, obj_slope)) && (hinput != 0)  {
 	spd[v] = -7
 }
 
-//Gavnishe 
-if (place_meeting(x, y + 1, obj_floor)) && (!place_meeting(x, y, obj_floor)) {
-	utz = true	
-} else {
-	utz = false	
-}
 //Movement
 x += spd[h] 
 y += spd[v]
