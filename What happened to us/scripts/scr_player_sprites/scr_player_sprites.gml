@@ -10,8 +10,8 @@ if (hinput = 0) && (!ladder) && (uuLadder) {
 	image_speed = 0.3
 	sprite_index = spr_player_idle	
 }
-if (hinput != 0) && (max_spd = 4) && (!ladder) {
-	image_speed = 0.6
+if (hinput != 0) && (max_spd = 2) && (!ladder) {
+	image_speed = 0.9
 	sprite_index = spr_player_walk
 }
 if (hinput != 0) && (max_spd = 6) {

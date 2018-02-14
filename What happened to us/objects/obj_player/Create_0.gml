@@ -2,7 +2,7 @@
 //Phy
 image_speed = 0
 spd = [0, 0]
-max_spd = 4
+max_spd = 0.1
 grav = 1
 accel = 1
 fric = 0.3

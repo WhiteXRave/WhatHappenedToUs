@@ -21,7 +21,7 @@ if (keyboard_check(ord("D"))) && (mouse_x > x) && (bRUN) && (ladder = false) {
 		} else if (keyboard_check(ord("A"))) && (mouse_x < x) && (bRUN) & (ladder = false) {
 			max_spd = 6
 } else {
-	max_spd = 4
+	max_spd = 2
 }
 
 

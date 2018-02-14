@@ -1,5 +1,5 @@
 spd = [0, 0]
-max_spd = 3
+max_spd = 1
 alert = false
 grav = 1
 accel = 1
