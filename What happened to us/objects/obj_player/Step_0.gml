@@ -17,13 +17,18 @@ if (place_meeting(x, y, obj_building)) {
 } else {
 	inBuilding = false	
 }
-if (y < obj_floor.y) {
+/*if (y < obj_floor.y) {
 	upperthanzombie = true
 } else {
 	upperthanzombie = false
-}
+}*/
 if (ladder) && (!uLadder) {
 	fLadder = true	
 } else {
 	fLadder = false	
+}
+if (y < obj_zombie.closest_ladder.y) {
+	upperthanzombie = true	
+} else {
+	upperthanzombie = false	
 }
