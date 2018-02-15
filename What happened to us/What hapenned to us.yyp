@@ -1343,14 +1343,6 @@
             }
         },
         {
-            "Key": "eb8d9c00-a485-4c50-89a0-58647431c003",
-            "Value": {
-                "id": "571e3c64-c350-41cd-8dbc-3b025d6c45cd",
-                "resourcePath": "timelines\\timeline0\\timeline0.yy",
-                "resourceType": "GMTimeline"
-            }
-        },
-        {
             "Key": "ec7d6515-6e4a-4f66-941a-ac87dca9a0be",
             "Value": {
                 "id": "da5f874f-6d04-44a2-b2b5-c6dc60f18b2a",

@@ -48,7 +48,7 @@ if (place_meeting(x, y, obj_ladder)) {
 if (ladder = true) && (uLadder = false) {
 	spd[h] = 0	
 }
-if (ladder)  {
+if (ladder) {
 	if (up) {
 		spd[v] = -4
 	} else if (down) && (!place_meeting(x, y + 1, obj_solid)) {
@@ -70,6 +70,11 @@ if (place_meeting(x, y - 1, obj_floor)) {
 		spd[v] = 4	
 	}
 }
+/*if (!place_meeting(x, y, last_ladder)) && (y < last_ladder.y) {
+	upperthanzombie = true	
+} else {
+	upperthanzombie = false
+}*/
 //Slopes
 if (place_meeting(x + spd[h], y, obj_slope)) && (hinput != 0)  {
 	spd[v] = -7

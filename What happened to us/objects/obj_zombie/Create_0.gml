@@ -5,8 +5,8 @@ grav = 1
 accel = 1
 alarm[0] = 120
 target = obj_player
-closest_ladder = false
 ladder = false
+contact = false
 //States
 movement = 0
 state = movement

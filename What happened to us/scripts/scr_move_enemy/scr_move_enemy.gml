@@ -25,11 +25,6 @@ if place_meeting(x, y+spd[v], obj_SolidPar) {
 	}
 }
 //Ladder 
-if (place_meeting(x, y + 1, obj_floor)) {
-	uuLadder = true	
-} else {
-	uuLadder = false	
-}
 if (place_meeting(x, y, obj_floor_uLadder)) {
 	uLadder = true	
 } else {
@@ -42,27 +37,26 @@ if (place_meeting(x, y, obj_ladder)) {
 	ladder = false
 	grav = 1
 }
-if (ladder = true) && (uLadder = false) {
-	spd[h] = 0	
-}
 if (ladder) {
 	if (target.y < y) {
-		spd[v] = -4
+		spd[v] = -2
 	} else if (target.y > y) && (!place_meeting(x, y + 1, obj_solid)) {
-		spd[v] = 4	
+		spd[v] = 2	
 	} else {
 		spd[v] = 0	
 	} 
 }
-
-if (place_meeting(x, y - 1, obj_floor)) {
+if (place_meeting(x, y - 1, obj_floor))  {
 	if (target.y < y) {
-		spd[v] = -4	
-	} 
-} else if (place_meeting(x, y + 1, obj_floor)) {
-	if (target.y > y) {
-		spd[v] = 4	
+		spd[v] = -2	
 	}
+} else if (place_meeting(x, y + 1, obj_floor))  {
+	if (target.y > y) {
+		spd[v] = 2	
+	}
+}
+if (ladder = true) && (uLadder = false) {
+	spd[h] = 0	
 }
 //Slopes
 if (place_meeting(x + spd[h], y, obj_slope)) {

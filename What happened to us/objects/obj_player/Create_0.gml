@@ -17,6 +17,7 @@ closest_ladder = false
 inBuilding = false
 upperthanzombie = false
 fLadder = false
+last_ladder = false
 
 
 //Hp
@@ -28,8 +29,8 @@ hp = max_hp
 ammo_taken = false
 
 // Hide the solids layer
-var solid_layer = layer_get_id("Solids")
-layer_set_visible(solid_layer, debug_mode)
+/*var solid_layer = layer_get_id("Solids")
+layer_set_visible(solid_layer, debug_mode)*/
 
 //States
 movement = 0
